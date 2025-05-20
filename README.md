@@ -2,20 +2,20 @@
 
 This project analyzes Toronto Transit Commission (TTC) subway delay data to uncover patterns in service disruptions. The goal is to identify stations with frequent or lengthy delays, analyze monthly trends, and generate actionable insights for improving transit efficiency.
 
-## Tools & Technologies Used
+# Tools & Technologies Used
 
 - **Python** – for data cleaning and SQL query execution (`TTC_project.py`, `ttc_SQL_queries.py`)
 - **SQLite** – used as the relational database to store and query structured delay data (`ttc_delays.db`)
 - **Power BI** – for creating interactive data visualizations (`TTC__project.pbix`)
 
-## Project Files
+# Project Files
 
 - `TTC_project.py` – main data processing and analysis script
 - `ttc_SQL_queries.py` – reusable SQL query functions
 - `ttc_delays.db` – SQLite database file with processed delay data
 - `TTC__project.pbix` – Power BI dashboard for visual insights
 
-## Key Features
+# Key Features
 
 - Identifies top stations with highest total delays
 - Analyzes average delays by month using SQL queries
